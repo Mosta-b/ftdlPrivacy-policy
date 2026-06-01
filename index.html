@@ -3,86 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delete Account – FTDL</title>
+    <title>Privacy Policy – FTDL</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-            background: #f5f7fb;
+            background: #f9fafb;
             padding: 2rem 1rem;
             color: #1f2937;
+            line-height: 1.5;
         }
         .container {
-            max-width: 650px;
+            max-width: 880px;
             margin: 0 auto;
             background: white;
             border-radius: 24px;
-            box-shadow: 0 20px 35px -8px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 35px -8px rgba(0,0,0,0.05);
             overflow: hidden;
         }
         .header {
             background: #ff8c42;
-            padding: 1.5rem 2rem;
+            padding: 1.8rem 2rem;
             color: white;
         }
-        .header h1 {
-            font-size: 1.8rem;
+        .header h1 { font-size: 1.8rem; font-weight: 600; margin-bottom: 0.25rem; }
+        .header .last-updated { opacity: 0.8; font-size: 0.85rem; margin-top: 0.5rem; }
+        .content { padding: 2rem; }
+        h2 {
+            font-size: 1.4rem;
             font-weight: 600;
-            margin-bottom: 0.25rem;
+            margin: 1.5rem 0 0.75rem;
+            color: #ff8c42;
         }
-        .header p {
-            opacity: 0.9;
-            font-size: 0.95rem;
-        }
-        .content {
-            padding: 2rem;
-        }
-        .warning-box {
+        h3 { font-size: 1.1rem; font-weight: 600; margin: 1rem 0 0.5rem; }
+        p { margin-bottom: 0.75rem; }
+        ul, ol { margin: 0.5rem 0 0.75rem 1.5rem; }
+        li { margin: 0.25rem 0; }
+        .contact {
             background: #fff3e3;
-            border-left: 4px solid #ff8c42;
-            padding: 1rem 1.2rem;
-            border-radius: 12px;
+            padding: 1.2rem;
+            border-radius: 16px;
             margin: 1.5rem 0;
-        }
-        .warning-box strong {
-            color: #b45309;
-        }
-        ul {
-            margin: 0.8rem 0 0 1.5rem;
-            line-height: 1.5;
-        }
-        .email {
-            background: #f3f4f6;
-            padding: 0.75rem 1rem;
-            border-radius: 12px;
-            font-family: monospace;
-            font-size: 1rem;
-            word-break: break-all;
-            margin: 1rem 0;
-            text-align: center;
-        }
-        .btn {
-            background: #ff8c42;
-            color: white;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: 40px;
-            font-size: 1rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: 0.2s;
-            width: 100%;
-            max-width: 280px;
-            display: block;
-            margin: 1.5rem auto 0;
-        }
-        .btn:hover {
-            background: #e07a2e;
-            transform: scale(1.02);
         }
         .footer {
             font-size: 0.75rem;
@@ -92,7 +53,7 @@
             padding: 1.5rem;
             background: #fafbfc;
         }
-        @media (max-width: 500px) {
+        @media (max-width: 600px) {
             .content { padding: 1.5rem; }
             .header h1 { font-size: 1.5rem; }
         }
@@ -101,35 +62,82 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>FTDL</h1>
-        <p>Data deletion request</p>
+        <h1>Privacy Policy</h1>
+        <p>FTDL – FinTech & E‑Learning Platform</p>
+        <div class="last-updated">Last updated: June 1, 2026</div>
     </div>
     <div class="content">
-        <p>You can request permanent deletion of your FTDL account and all associated data. To verify ownership, please use the email address linked to your account.</p>
+        <p>This Privacy Policy explains how FTDL ("we", "our", or "us") collects, uses, stores, and protects your personal information when you use our mobile application and related services (collectively, the "Service"). By using the Service, you agree to the practices described in this policy.</p>
 
-        <div class="warning-box">
-            <strong>⚠️ What will be deleted</strong>
-            <ul>
-                <li>Your profile and login credentials</li>
-                <li>All course purchases and progress</li>
-                <li>Personal information stored in your account</li>
-                <li>Cart items and order history</li>
-            </ul>
-            <p style="margin-top: 10px; font-size: 0.9rem;">Some transaction records may be retained for legal or tax purposes (e.g., receipts).</p>
+        <h2>1. Information We Collect</h2>
+        <p>We collect only the information necessary to provide and improve our educational services:</p>
+        <ul>
+            <li><strong>Account information:</strong> When you sign up, we collect your name, email address, and phone number (if provided). All accounts are protected by Firebase Authentication.</li>
+            <li><strong>Course data:</strong> Courses you purchase, progress, quiz results, and certificates earned.</li>
+            <li><strong>Cart and order history:</strong> Items you place in your cart, purchase dates, and payment amounts (payment details are handled by our secure payment providers – we never store full card numbers).</li>
+            <li><strong>Device information:</strong> Operating system version, device model, and app version (for analytics and crash reporting).</li>
+            <li><strong>Usage data:</strong> How you interact with the app (e.g., which pages you visit, search queries) to improve user experience.</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <ul>
+            <li>To create and manage your account.</li>
+            <li>To deliver courses, track your progress, and issue certificates.</li>
+            <li>To process your orders and provide customer support.</li>
+            <li>To send important service updates (e.g., course confirmations, password resets).</li>
+            <li>To analyse app usage and improve our content and features.</li>
+            <li>To comply with legal obligations.</li>
+        </ul>
+
+        <h2>3. Data Sharing & Third Parties</h2>
+        <p>We do not sell your personal data. We share data only with essential service providers:</p>
+        <ul>
+            <li><strong>Firebase (Google):</strong> Authentication, Cloud Firestore, Cloud Storage, and Analytics. Google’s privacy policy applies.</li>
+            <li><strong>Payment processors:</strong> We use secure third‑party gateways to handle payments (e.g., Stripe, PayPal). We never see your full payment credentials.</li>
+            <li><strong>Email service:</strong> To send transactional emails (e.g., order confirmations).</li>
+        </ul>
+        <p>All third‑party services are contractually obligated to protect your data and may only use it to provide their services to us.</p>
+
+        <h2>4. Data Retention & Deletion</h2>
+        <p>We retain your personal data as long as your account is active. When you request account deletion:</p>
+        <ul>
+            <li>Your authentication credentials are permanently removed from Firebase Auth.</li>
+            <li>All personal data from Firestore and Cloud Storage is deleted within 5 business days.</li>
+            <li>Course purchase records may be retained for tax/audit purposes (as required by law).</li>
+        </ul>
+        <p>You can request deletion via the app (“Delete Account” in settings) or by emailing <strong>support@ftdl.dz</strong>.</p>
+
+        <h2>5. Security</h2>
+        <p>We use industry‑standard security measures (encryption in transit and at rest, Firebase Security Rules, and regular audits). However, no method of transmission over the internet is 100% secure; you use the Service at your own risk.</p>
+
+        <h2>6. Children’s Privacy</h2>
+        <p>Our Service is not directed to children under 13 (or the age of digital consent in your country). We do not knowingly collect personal information from children. If you believe a child has provided us with data, please contact us to delete it.</p>
+
+        <h2>7. Your Rights</h2>
+        <p>Depending on your location, you may have the right to:</p>
+        <ul>
+            <li>Access, correct, or delete your personal data.</li>
+            <li>Withdraw consent for marketing communications.</li>
+            <li>Request a copy of your data in a portable format.</li>
+        </ul>
+        <p>To exercise these rights, contact us at <strong>support@ftdl.dz</strong>.</p>
+
+        <h2>8. International Data Transfers</h2>
+        <p>We operate primarily on Google Cloud Platform servers located in the US‑Central1 region (Iowa, USA). By using our Service, you consent to the transfer and processing of your data in the United States and other countries where our service providers operate.</p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>We may update this policy occasionally. We will notify you of material changes via the app or email. The “Last updated” date at the top indicates when the policy was last revised. Continued use of the Service after changes constitutes acceptance of the new terms.</p>
+
+        <div class="contact">
+            <h3>📬 Contact Us</h3>
+            <p>If you have any questions about this Privacy Policy or your data, please contact our Data Protection Officer:</p>
+            <p><strong>Email:</strong> privacy@ftdl.dz<br>
+            <strong>Support email:</strong> support@ftdl.dz<br>
+            <strong>Address:</strong> FTDL, 123 Tech Park, Algiers, Algeria (for correspondence purposes)</p>
         </div>
-
-        <p><strong>How to request deletion:</strong></p>
-        <p>Send an email from your registered email address to:</p>
-        <div class="email">support@ftdl.dz</div>
-        <p>Include your full name and optionally the reason for deletion. We will process your request within <strong>5 business days</strong> and send you a confirmation email.</p>
-
-        <button class="btn" onclick="alert('📧 Please send an email to support@ftdl.dz from your registered email address.')">
-            📧 Request deletion via email
-        </button>
     </div>
     <div class="footer">
-        FTDL – Empowering learning<br>
-        Last updated: June 2026
+        © 2026 FTDL – All rights reserved. Empowering learning through technology.
     </div>
 </div>
 </body>
